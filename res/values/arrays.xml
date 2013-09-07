@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="getTracks">
+		<item name="0">All tracks</item>
+        <item name="1">1 track</item>
+        <item name="2">2 tracks</item>
+        <item name="3">3 tracks</item>
+        <item name="4">4 tracks</item>
+        <item name="5">5 tracks</item>
+        <item name="6">6 tracks</item>
+        <item name="7">7 tracks</item>
+        <item name="8">8 tracks</item>
+        <item name="9">9 tracks</item>
+        <item name="10">10 tracks</item>
+    </string-array>
+    <string-array name="getTracksValues">
+		<item name="0">42</item>
+        <item name="1">1</item>
+        <item name="2">2</item>
+        <item name="3">3</item>
+        <item name="4">4</item>
+        <item name="5">5</item>
+        <item name="6">6</item>
+        <item name="7">7</item>
+        <item name="8">8</item>
+        <item name="9">9</item>
+        <item name="10">10</item>
+    </string-array>
+    
+    <string-array name="timeImage">
+        <item name="0">5 seconds</item>
+        <item name="1">30 minutes</item>
+        <item name="2">1 hour</item>
+    </string-array>
+    <string-array name="timeImageValues">
+        <item name="0">5000</item>
+        <item name="1">180000</item>
+        <item name="2">360000</item>
+    </string-array>
+    
+    <string-array name="typeAnimation">
+		<item name="0">None</item>
+        <item name="1">Line on music</item>
+        <item name="2">Fill music</item>
+    </string-array>
+    <string-array name="typeAnimationValues">
+		<item name="0">0</item>
+        <item name="1">1</item>
+        <item name="2">2</item>
+    </string-array>
+
+    <string-array name="colorAnimation">
+        <item name="0">Red</item>
+        <item name="1">Blue</item>
+        <item name="2">Green</item>
+    </string-array>
+    <string-array name="colorAnimationValues">
+        <item name="0">-65536</item>
+        <item name="1">-16776961</item>
+        <item name="2">-16711936</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="first_preferencescreen" >
+
+    <PreferenceCategory
+        android:key="Configurations"
+        android:title="Default configurations">
+        
+        <EditTextPreference
+            android:key="userId"
+            android:defaultValue="User default"
+            android:persistent="true"
+            android:title="SoundCloud user id" />
+
+        <ListPreference
+            android:defaultValue="42"
+            android:dialogTitle="Quantity of tracks:"
+            android:entries="@array/getTracks"
+            android:entryValues="@array/getTracksValues"
+            android:key="qtdOfTracks"
+            android:persistent="true"
+            android:title="Tracks to download"
+            android:summary="All tracks" />
+        
+        <ListPreference
+            android:defaultValue="5000"
+            android:dialogTitle="Time to change image"
+            android:entries="@array/timeImage"
+            android:entryValues="@array/timeImageValues"
+            android:key="timeToChangeImage"
+            android:persistent="true"
+            android:title="Time to change image"
+            android:summary="5 seconds" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="Animation"
+        android:title="Advanced configurations" >
+        
+        <ListPreference
+            android:defaultValue="1"
+            android:dialogTitle="Animation type"
+            android:entries="@array/typeAnimation"
+            android:entryValues="@array/typeAnimationValues"
+            android:key="typeAnimation"
+            android:persistent="true"
+            android:title="Animation type"
+            android:summary="None" />
+
+        <ListPreference
+            android:defaultValue="-65536"
+            android:dialogTitle="Animation color"
+            android:entries="@array/colorAnimation"
+            android:entryValues="@array/colorAnimationValues"
+            android:key="colorAnimation"
+            android:persistent="true"
+            android:title="Animation color"
+            android:summary="Red" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="info_category"
+        android:title="About" >
+    
+        <Preference 
+            android:key="Versao"
+            android:title="Version"
+            android:summary="1.0"/>
+        
+        <Preference 
+            android:key="SiteDesenvolvedor"
+            android:title="Developer's site"
+            android:summary="www.suelengc.com.br"/>        
+    </PreferenceCategory>
+</PreferenceScreen>
